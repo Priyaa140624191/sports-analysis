@@ -2,7 +2,6 @@ import openai
 import pandas as pd
 
 # Set your OpenAI API key
-openai.api_key = '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'
 
 def get_relevant_data(nba_events_df, social_media_df, user_query):
     # Extract all unique team names dynamically from nba_events_df
